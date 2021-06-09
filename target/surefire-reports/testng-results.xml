@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="67540" started-at="2021-06-09T14:04:37Z" finished-at="2021-06-09T14:05:45Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="67540" started-at="2021-06-09T14:04:37Z" finished-at="2021-06-09T14:05:45Z">
+      <class name="com.nopcommerce.demo.productpage.ProductTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.productpage.ProductTest@737996a0]" name="setUp" is-config="true" duration-ms="5349" started-at="2021-06-09T14:05:23Z" finished-at="2021-06-09T14:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductAddedToShoppingCartSucessFully()[pri:0, instance:com.nopcommerce.demo.productpage.ProductTest@737996a0]" name="verifyProductAddedToShoppingCartSucessFully" duration-ms="15286" started-at="2021-06-09T14:05:28Z" finished-at="2021-06-09T14:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedToShoppingCartSucessFully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.productpage.ProductTest@737996a0]" name="tearDown" is-config="true" duration-ms="1020" started-at="2021-06-09T14:05:44Z" finished-at="2021-06-09T14:05:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.productpage.ProductTest -->
+      <class name="com.nopcommerce.demo.topemenu.TopMenuTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.topemenu.TopMenuTest@61dc03ce]" name="setUp" is-config="true" duration-ms="7193" started-at="2021-06-09T14:04:58Z" finished-at="2021-06-09T14:05:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPagenavigation()[pri:0, instance:com.nopcommerce.demo.topemenu.TopMenuTest@61dc03ce]" name="verifyPagenavigation" duration-ms="15833" started-at="2021-06-09T14:05:06Z" finished-at="2021-06-09T14:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPagenavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.topemenu.TopMenuTest@61dc03ce]" name="tearDown" is-config="true" duration-ms="1447" started-at="2021-06-09T14:05:21Z" finished-at="2021-06-09T14:05:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.topemenu.TopMenuTest -->
+      <class name="com.nopcommerce.demo.computer.ComputerTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.computer.ComputerTest@234bef66]" name="setUp" is-config="true" duration-ms="13276" started-at="2021-06-09T14:04:37Z" finished-at="2021-06-09T14:04:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductArrangeInAlphaBaticalOrder()[pri:0, instance:com.nopcommerce.demo.computer.ComputerTest@234bef66]" name="verifyProductArrangeInAlphaBaticalOrder" duration-ms="6861" started-at="2021-06-09T14:04:50Z" finished-at="2021-06-09T14:04:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductArrangeInAlphaBaticalOrder -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.computer.ComputerTest@234bef66]" name="tearDown" is-config="true" duration-ms="1228" started-at="2021-06-09T14:04:57Z" finished-at="2021-06-09T14:04:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.computer.ComputerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
